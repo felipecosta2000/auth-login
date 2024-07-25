@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/myDatabase', 
+mongoose.connect('mongodb://localhost:27017/banco-de dados', 
               {useNewUrlParser:true});
         
 mongoose.connection.once('open', ()=>{ 
